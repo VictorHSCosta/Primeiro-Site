@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    position: fixed; 
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.img_logo_imagem{
+    width: 7rem;
+    height: 5rem;
+    
+}
+
+
+
+.img_Imagem_grande{
+    width: 100%; 
+    overflow: hidden;
+}
+
+.seçao_foto_principal{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.Final_site_section{
+    background-color: #2a2a2a;
+    color: #ffffff;
+    text-align: center;
+}
+
+.maps{
+    margin: 5%;
+    width: 90%;
+}
+
+.final_text_maps_title{
+    margin: 1rem;
+}
