@@ -30,11 +30,20 @@ nav {
     background-color: #000000;
     color: #ffffff;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
+}
+
+.Final_site_section > div > h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font:bolder;
+}
+
+.Final_site_section > div > a > img {
+    margin-bottom: 1rem;
 }
 
 .maps{
-    
     width: 90%;
 }
 
@@ -99,10 +108,16 @@ a {
     margin: 0 1rem;
 }
 
+.imagens_empresas > div > li {
+    display: flex;
+    text-align: center;
+}
+
 @media (max-width: 1080px) {
     .imagens_empresas {
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
 
     .imagens_empresas > div {
@@ -113,6 +128,69 @@ a {
     .imagens_empresas > div > img {
         width: 20rem; 
         max-width: 100%;
-        margin: 0; 
+        margin: 0;
     }
 }
+
+
+
+.text_final > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    flex-direction: column;
+}
+
+.Top_text > h1 {
+    font-size: 2rem;
+    margin: 1rem 0 1rem 0;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.text_final > div > p {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.text_final > div > p {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.text_final > div > div > p {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.text_final > div > div> h2 {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.corpo_texto > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    flex-direction: column;
+}
+
+.corpo_texto > div > a > img {
+    display: flex;
+    align-items: center;
+    width: 5rem;
+}
+
+
+
